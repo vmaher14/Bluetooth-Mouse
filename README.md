@@ -1,0 +1,2 @@
+# Bluetooth Mouse
+This project utilizes the built-in accelerometer and Bluetooth capabilities of the ESP32-C3 SoC board to implement a Bluetooth Low Energy (BLE) Human Interface Device (HID) that simulates mouse movements. The device communicates via I2C with an IC-42670-P accelerometer to capture motion data, which is then processed and used to simulate mouse pointer movements. The BLE HID profile supports multiple report types, including mouse, keyboard, and consumer device controls, allowing it to interact with a variety of host devices like PCs and smartphones.
